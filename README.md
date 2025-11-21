@@ -1,6 +1,6 @@
 Supporting Slides : https://drive.google.com/file/d/1Kqvwhn7W7bOBx6HAUt8opKasICif8S8E/view?usp=drive_link
 
-Supporting Video : #
+Supporting Video : https://www.loom.com/share/ec4364888ef8479a8fc4afa7918c5857
 
 # PSTB Bootcamp - Hackathon 2 - 20/21 November 2025
 
