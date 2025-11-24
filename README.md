@@ -160,6 +160,23 @@ This project uses Python 3.10.13 and a pinned requirements.txt available in the 
 
 ---
 
+## 🧪 Testing the App with sample documents
+
+We prepared 3 files (DOCX and TXTs) to use in the upload section of the App:
+- You can find these files in the **data/examples** repository folder
+
+Once step 1 (documents upload) & 2 (parameters selection) are complete you can use the following query for step 3: **how do we call a group of rabbits?**
+
+- The application will **display the top retrieved passages**, display the bart-base and the TinyLlama summaries (if selected in the parameters). Sample documents contain different subjects so only the relevant document (rabbits-wiki-extract.docx) will score a high match (FAISS cosine similarity score displayed in match percentage).
+
+**Expected output**: 
+
+- **bart-base** > generic summary with highest match chunk
+- **TinyLlama LLM** > A group of rabbits is known as a colony, nest, or warren
+- The TinyLlama LLM provides an augmented "question-aware" output compared to bart-base
+
+---
+
 ## 🎯 General Conclusion
 
 Over the course of this 2-day hackathon, we designed and built a fully functional **Retrieval-Augmented Generation (RAG)** system that works entirely **locally on CPU** and supports multiple document types (DOCX, TXT, PDF).
